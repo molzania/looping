@@ -1,10 +1,11 @@
-document.write("<h3>Soal Nomor 3</h3><br>")
-let i = 0;
+document.write("<h3>Soal Nomor 3</h3><br>");
 
-for(i=0;i<=20;i++){
-    if(i%2==0){
-        document.write(i + " bilangan genap");
-    }else if(i%2==1){
-        document.write(i + " bilangan ganjil");
+let c = 0;
+
+for(c=0;c<=20;c++){
+    if(c%2==0){
+        document.write(c + " bilangan genap" + "<br>");
+    }else if(c%2==1){
+        document.write(c + " bilangan ganjil" + "<br>");
     }
 }

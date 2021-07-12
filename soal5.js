@@ -1,3 +1,4 @@
+  
 let jawaban = prompt("Sebutkan kepanjangan dari nama IB ?");
 
 while(jawaban!=undefined){
